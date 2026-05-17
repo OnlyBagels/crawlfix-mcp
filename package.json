@@ -1,0 +1,37 @@
+{
+  "name": "crawlfix-mcp",
+  "version": "0.1.0",
+  "description": "Self-hosted MCP server for Crawlfix. Bridges stdio MCP to the crawlfix.ai API so any MCP client (Claude Desktop, Cursor, Claude Code) can run audits, fetch fix prompts, and verify deploys.",
+  "type": "module",
+  "bin": {
+    "crawlfix-mcp": "./bin/crawlfix-mcp.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "crawlfix",
+    "seo",
+    "ai-seo",
+    "claude",
+    "cursor"
+  ],
+  "author": "Faction Community, LLC",
+  "homepage": "https://crawlfix.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyBagels/crawlfix-mcp.git"
+  },
+  "bugs": {
+    "url": "mailto:Michael@faction.chat"
+  },
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
